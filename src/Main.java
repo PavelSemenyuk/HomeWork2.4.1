@@ -32,6 +32,7 @@ public class Main {
             if (!((a >= 'A' && a <= 'Z') || (a >= 'a' && a <= 'z') || (a >= '0' && a <= '9') || (a == '_'))) {
                 throw new WrongPasswordException();
             }
+
         }
         //ПРОВЕРКА ПАРОЛЯ
         if (password.length() != confirmPassword.length()) {
